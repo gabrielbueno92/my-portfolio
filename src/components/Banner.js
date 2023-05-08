@@ -1,6 +1,6 @@
-import { Col, Container, Row } from "react-bootstrap";
-import { ArrowRightCircle } from "react-bootstrap-icons";
-import headerImg from "../assets/img/header-img.svg"
+import { Container } from "react-bootstrap";
+import { ArrowDownCircle, ArrowRightCircle, Download } from "react-bootstrap-icons";
+import resumepdf from '../assets/resume.pdf'
 import { useEffect, useState } from "react";
 
 export const Banner = () => {
@@ -44,18 +44,14 @@ export const Banner = () => {
     return (
         <section className="banner" id="home">
             <Container>
-                <Row className="align-items-center">
-                    <Col xs={12} md={6} xl={7}>
                         <span className="tagline">Welcome to my Portfolio</span>
-                        <h1>{`Hi I'm Gabriel Bueno `}<br></br>
+                        <h2>{`Hi, I'm `}<br/></h2><h1>{`Gabriel Bueno`}<br/>
                         <span className="wrap">{text}</span></h1><p>Bachelor's Degree in Software Engineering with 2+ years of experience working as a Backend Developer (Java, Spring, Maven, MySQL, API Rest). Knowledge of HTML5, CSS3, Javascript and React. Passion for technology and acquiring new insights every day. Arriving in Sydney, Australia on June, 10 2023 on a working holiday visa (462).</p>
                         
-                        <button onClick={() => console.log('connect')}>Let's connect <ArrowRightCircle></ArrowRightCircle> </button>
-                    </Col>
-                    <Col xs={12} md={6} xl={7}>
-                        <img src={headerImg} alt="Header Img" />
-                    </Col>
-                </Row>
+                        <Container className="container-btn">
+                        <button className="btn-connect" onClick={() => console.log('connect')}>Let's connect <ArrowRightCircle></ArrowRightCircle> </button>
+                        <a href={resumepdf} download={`Resume - Gabriel Bueno`}><button className="btn-resume" onClick={() => console.log('downloading resume')}>Download resume <ArrowDownCircle></ArrowDownCircle> </button></a>
+                        </Container>
             </Container>
 
         </section>
