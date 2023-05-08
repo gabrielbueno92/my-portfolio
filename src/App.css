@@ -43,6 +43,57 @@ h1, h2, h3, h4, h5, h6, p {
   line-height: normal;
   color: #ffffff;
 }
+
+/* Background */
+.circles {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  filter: blur(2em);
+  animation:circle-one 20s linear infinite both;
+}
+
+.circles * {
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  animation:circle-one 100s linear infinite both;
+}
+
+.circles .circle-one {
+  top:0%;
+  left: 0%;
+}
+
+@keyframes circle-one {
+  from {
+    transform:rotate(0deg) scale(3);
+  }
+  to {
+    transform:rotate(360deg) scale(3);
+  }
+  
+}
+
+.circles .circle-two {
+  bottom:0%;
+  right: 0%;
+}
+
+.circles .circle-three {
+  bottom:0%;
+  left: 0%;
+}
+
+.circles .circle-four {
+  top:0%;
+  right: 0%;
+}
+
+
 /* Navbar */
 nav.navbar {
   padding: 18px 0;
@@ -59,7 +110,7 @@ nav.navbar.scrolled {
 }
 
 nav.navbar a.navbar-brand {
-  width: 15%;
+  width: 20%;
 }
 
 nav.navbar a.navbar-brand img {
@@ -222,7 +273,24 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 /* Banner */
+.banner {
+  margin-top: 0;
+  padding: 260px 0 100px 0;
+  position: relative;
+  z-index: 2;
+  color: #ffffff;
+}
 
+.banner .tagline {
+  font-weight: 700;
+  letter-spacing: 0.8;
+  padding: 8px 10px;
+  background: linear-gradient(90.21deg, rgba(132, 169, 140, 0.5) -5.91%, rgba(82, 121, 117,0.5) 111.58%);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  font-size: 20px;
+  margin-bottom: 16px;
+  display: inline-block;
+}
 
 .App {
   text-align: center;

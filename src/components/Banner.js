@@ -9,7 +9,7 @@ export const Banner = () => {
     const [text, setText] = useState('');
     const [delta, setDelta] = useState(300 - Math.random() * 100)
     const [index, setIndex] = useState(1);
-    const toRotate = ["Software Engineer", "Software Developer", "Backend Developer", "Starter Front End Developer"];
+    const toRotate = ["Software Engineer", "Software Developer"];
     const period = 2000;
 
     useEffect(() => {
@@ -48,7 +48,7 @@ export const Banner = () => {
                     <Col xs={12} md={6} xl={7}>
                         <span className="tagline">Welcome to my Portfolio</span>
                         <h1>{`Hi I'm Gabriel Bueno `}<br></br>
-                        <span className="wrap">{text}</span></h1><p>Software engineer with 2+ years of experience in Java backend programming, in the process of expanding my stack by training in React. Looking for new challenges to apply my skills and knowledge in a dynamic environment. Passionate about technology and solving complex problems. Highly motivated, with exceptional communication and teamwork skills. Arriving in Sydney, Australia on June 10 on working holiday visa (462).</p>
+                        <span className="wrap">{text}</span></h1><p>Bachelor's Degree in Software Engineering with 2+ years of experience working as a Backend Developer (Java, Spring, Maven, MySQL, API Rest). Knowledge of HTML5, CSS3, Javascript and React. Passion for technology and acquiring new insights every day. Arriving in Sydney, Australia on June, 10 2023 on a working holiday visa (462).</p>
                         
                         <button onClick={() => console.log('connect')}>Let's connect <ArrowRightCircle></ArrowRightCircle> </button>
                     </Col>
