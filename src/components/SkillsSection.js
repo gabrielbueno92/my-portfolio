@@ -1,13 +1,11 @@
 import { Container } from "react-bootstrap"
-import { SkillCard } from "./SkillCard"
+import { SkillCards } from "./SkillCard";
 
 export const SkillsSection = () => {
     return (
-        <Container>
-            <SkillCard></SkillCard>
-            <SkillCard></SkillCard>
-            <SkillCard></SkillCard>
-            <SkillCard></SkillCard>
+        <Container className="skillSection">
+            <h2>Skills</h2>
+            <SkillCards></SkillCards>
         </Container>
 
-)}
+);}
