@@ -12,6 +12,8 @@
     "react-bootstrap-icons": "^1.10.3",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
+    "react-vertical-timeline-component": "^3.6.0",
+    "vertical-timeline-component-react": "^4.4.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

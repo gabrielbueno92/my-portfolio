@@ -4,6 +4,7 @@ import backendImg from "../assets/img/backend.png"
 import frontEndImg from "../assets/img/frontend.png"
 import toolImg from "../assets/img/tool.png"
 import { Skill } from "./Skill"
+import './SkillCard.css'
 
 
 export const SkillCards = () => {

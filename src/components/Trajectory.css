@@ -1,0 +1,91 @@
+.trajectory {
+    width: fit-content;
+    height: fit-content;
+    position: relative;
+    text-align: left;
+    z-index: 2;
+   
+}
+
+.trajectory h2 {
+    color: #cad2c5;
+    text-align: center;
+}
+
+.trajectory .subtitle {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.vertical-timeline-element-content {
+    box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25), 0 0.4em 1.25em 0 rgba(0, 0, 0, 0.15) !important;
+    padding: 2em 3em !important;
+}
+
+.vertical-timeline-element-content.bounce-in{
+    background-color: rgba(114, 114, 114, 0.5);
+    border: #ffffff;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 0%;
+}
+
+.vertical-timeline-element-content-arrow{
+    background-color: transparent;
+}
+
+.vertical-timeline-element-title ,.vertical-timeline-element-subtitle {
+    color: #ffffff;
+}
+
+.date {
+    color: #cad2c5;
+}
+
+#description {
+    color: #ffffff;
+    margin: 1.5em 0 2em 0;
+}
+
+.workButton {
+    color: #fff;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    background:transparent;
+    border-color:#fff ;
+    border: solid 2px;
+    padding: 5px 10px;
+    text-decoration: none;
+  }
+
+.button svg {
+    width: 30px;
+    margin-left: 5px;
+    padding: 0px;
+    transition: 0.3s ease-in-out;
+    line-height: 1;
+}
+
+.button:hover svg {
+    margin-left: 25px;
+  }
+
+.button:hover {
+    color: #fff;
+}
+
+
+
+.nav-fill .nav-item .nav-link, .nav-justified .nav-item .nav-link {
+    background-color: transparent;
+    color: #ffffff;
+}
+
+.nav-fill .nav-item .nav-link, .nav-justified .nav-item .nav-link.active{
+    background-color: #cad2c5;
+    color: #2f3e46;
+
+}
+
+

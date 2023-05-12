@@ -1,0 +1,102 @@
+/* Banner */
+.banner {
+    margin-top: 0;
+    padding: 260px 0 100px 0;
+    position: relative;
+    z-index: 2;
+    color: #ffffff;
+  }
+  
+  .banner .tagline {
+    font-weight: 700;
+    letter-spacing: 0.8;
+    padding: 8px 10px;
+    background: linear-gradient(90.21deg, rgba(132, 169, 140, 0.5) -5.91%, rgba(82, 121, 117,0.5) 111.58%);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    font-size: 20px;
+    margin-bottom: 16px;
+    display: inline-block;
+  }
+  
+  .banner h1 {
+    font-size: 65px;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    line-height: 1;
+    margin-bottom: 20px;
+    display: block;
+  }
+  
+  .banner .wrap {
+    font-size: 40px;
+  }
+  
+  .banner p {
+    color: #cad2c5 ;
+    font-size: 18px;
+    letter-spacing: 0.8px;
+    line-height: 1.5em;
+    width: 96%;
+  }
+  
+  .banner .container-btn {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .banner button {
+    color: #fff;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    background:transparent;
+    display: inline;
+    align-items: center;
+    justify-content: center;
+    border-color:#fff ;
+    margin: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  
+  .banner .btn-connect {
+    margin-top: 10px;
+    width: 235px;
+  }
+  
+  .banner a {
+    text-decoration: none;
+  }
+  
+  .banner .btn-resume {
+    margin-top: 10px;
+    width: fit-content;
+  }
+  
+  .banner .btn-resume:hover {
+    margin-top: 10px;
+    width: fit-content;
+  }
+  
+  .banner button svg {
+    font-size: 25px;
+    margin-left: 10px;
+    transition: 0.3s ease-in-out;
+    line-height: 1;
+  }
+  
+  .banner button:hover svg {
+    margin-left: 25px;
+  }
+  
+  .txt-rotate > .wrap {
+    border-right: 0.08em solid #666;
+  }
+
+  @media only screen and (max-width: 1700px) {
+    .vertical-timeline-element-date {
+      display: block !important;
+      float: none !important;
+      margin-top: 1.5em;
+    }
+  }

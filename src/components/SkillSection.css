@@ -1,0 +1,9 @@
+.skillSection {
+    position: relative;
+    z-index: 2;
+  }
+  
+  .skillSection h2 {
+    margin-bottom: 10px;
+    color: #cad2c5;
+  }

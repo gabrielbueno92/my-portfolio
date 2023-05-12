@@ -1,5 +1,6 @@
 import { Container } from "react-bootstrap"
 import { SkillCards } from "./SkillCard";
+import './SkillSection.css'
 
 export const SkillsSection = () => {
     return (

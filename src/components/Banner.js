@@ -1,14 +1,15 @@
 import { Container } from "react-bootstrap";
-import { ArrowDownCircle, ArrowRightCircle, Download } from "react-bootstrap-icons";
+import { ArrowRightCircle, Download } from "react-bootstrap-icons";
 import resumepdf from '../assets/resume.pdf'
 import { useEffect, useState } from "react";
+import './Banner.css'
 
 export const Banner = () => {
     const [loopNum, setLoopNum] = useState(0);
     const [isDeleting, setIsDeleting] = useState(false);
-    const [text, setText] = useState('');
+    const [text, setText] = useState('-');
     const [delta, setDelta] = useState(300 - Math.random() * 100)
-    const toRotate = ["Software Engineer", "Software Developer"];
+    const toRotate = ["- Software Engineer -", "- Software Developer -"];
     const period = 2000;
 
     useEffect(() => {
@@ -33,7 +34,7 @@ export const Banner = () => {
         if (!isDeleting && updatedText === fullText) {
             setIsDeleting(true);
             setDelta(period);
-        } else if (isDeleting && updatedText === '') {
+        } else if (isDeleting && updatedText === '-') {
             setIsDeleting(false);
             setLoopNum(loopNum + 1);
             setDelta(500);
@@ -49,7 +50,7 @@ export const Banner = () => {
                         
                         <Container className="container-btn">
                         <button className="btn-connect" onClick={() => console.log('connect')}>Let's connect <ArrowRightCircle></ArrowRightCircle> </button>
-                        <a href={resumepdf} download={`Resume - Gabriel Bueno`}><button className="btn-resume" onClick={() => console.log('downloading resume')}>Download resume <ArrowDownCircle></ArrowDownCircle> </button></a>
+                        <a href={resumepdf} download={`Resume - Gabriel Bueno`}><button className="btn-resume" onClick={() => console.log('downloading resume')}>Download resume <Download></Download> </button></a>
                         </Container>
             </Container>
 

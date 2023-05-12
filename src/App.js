@@ -4,6 +4,7 @@ import { Banner } from './components/Banner';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Background } from './components/Background';
 import { SkillsSection } from './components/SkillsSection';
+import { Trajectory } from './components/Trajectory';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
     <NavBar />
     <Banner />
     <SkillsSection />
+    <Trajectory />
     </div>
   );
 }
