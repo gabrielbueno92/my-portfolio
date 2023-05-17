@@ -12,7 +12,7 @@ export const Trajectory = () => {
   let educationIconStyles = { background: "#84a98c" };
 
   return (
-    <Container className="trajectory">
+    <Container id="trajectory" className="trajectory">
         <h2>Trajectory</h2>
         <h4 className='subtitle'>Education & professional experience</h4>
         <VerticalTimeline>

@@ -4,7 +4,7 @@ import './SkillSection.css'
 
 export const SkillsSection = () => {
     return (
-        <Container className="skillSection">
+        <Container id="skills" className="skillSection">
             <h2>Skills</h2>
             <SkillCards></SkillCards>
         </Container>
