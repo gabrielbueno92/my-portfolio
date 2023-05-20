@@ -6,6 +6,7 @@ import { Background } from './components/Background';
 import { SkillsSection } from './components/SkillsSection';
 import { Trajectory } from './components/Trajectory';
 import { Projects } from './components/Projects'
+import { ContactSection } from './components/ContactSection';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
     <SkillsSection />
     <Trajectory />
     <Projects />
+    <ContactSection />
     </div>
   );
 }

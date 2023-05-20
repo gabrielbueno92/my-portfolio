@@ -2,7 +2,9 @@ import './Background.css'
 
 export const Background = () => {
     return (
-        <div className="circles">
+        <div className="background">
+
+            {/* <div className="circles">
             <svg className="circle-one" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
                 <path fill="#84A98C" d="M23.3,-9.4C30.5,14.6,36.9,37,27.2,46.1C17.5,55.2,-8.3,51,-25.1,38C-42,24.9,-49.9,3.1,-44.2,-18.8C-38.6,-40.8,-19.3,-62.7,-5.6,-60.9C8,-59.1,16.1,-33.5,23.3,-9.4Z" transform="translate(100 100)" />
             </svg>
@@ -15,7 +17,10 @@ export const Background = () => {
             <svg className="circle-four" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
                 <path fill="#2F3E46" d="M43.6,-30.3C53.3,-22.7,55.6,-4.7,53.5,15.3C51.4,35.4,44.9,57.6,28.9,68.6C12.9,79.5,-12.6,79.3,-31.9,69C-51.1,58.6,-64.1,38.1,-70.2,15C-76.2,-8.1,-75.4,-33.7,-62.5,-42C-49.6,-50.4,-24.8,-41.3,-3.9,-38.2C17,-35.1,34,-37.8,43.6,-30.3Z" transform="translate(100 100)" />
             </svg>
+        </div> */}
         </div>
+        
+        
         
     )
 }
